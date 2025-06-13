@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
+    "メイリオ", Meiryo, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+header {
+  background: #4f8cff;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+nav {
+  margin: 1rem 0;
+  text-align: center;
+}
+nav a {
+  color: #4f8cff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #0056b3;
+}
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+  margin: 2rem 0 1rem 0;
+}
