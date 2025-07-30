@@ -17,3 +17,5 @@ git add .
 # コミット
 git commit -m "コメント"
 
+# プッシュ
+git push origin {ブランチ名}
